@@ -1,0 +1,239 @@
+/* Reset Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+  font-family: 'DM Mono', monospace;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header Styles */
+header {
+background-color: #28282B;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul li a {
+  color: white ;
+  text-decoration: none;
+  padding: 10px;
+  transition: all 0.3s ease;
+  background-color: #28282B;
+  border-radius: 5px;
+}
+
+nav ul li a:active {
+  background-image: none;
+  background-color: #333;
+}
+
+nav ul li a:hover {
+  background-color: gray;
+  color: #fff;
+}
+
+/* Hero Section Styles */
+#hero {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 100px 0;
+}
+
+#hero img {
+  border-radius: 50%;
+  margin-bottom: 20px;
+  width: 150px;
+  height: 150px;
+}
+
+#hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+#hero p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* About Section Styles */
+#about {
+  padding: 50px 0;
+  text-align: center;
+}
+
+#about h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+#about p {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+/* Skills Section Styles */
+#skills {
+  background-color: #f2f2f2;
+  padding: 50px 0;
+  text-align: center;
+}
+
+#skills h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+#skills ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+#skills li {
+  margin: 10px;
+  padding: 10px 20px;
+  border: 2px solid #333;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Projects Section Styles */
+#projects {
+  padding: 50px 0;
+  text-align: center;
+}
+
+#projects h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+#projects ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+#projects li {
+  margin: 30px;
+}
+
+#projects h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#projects img {
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+#projects p {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+#projects a {
+  text-decoration: none;
+  color: black;
+}
+
+
+/* Contact Section Styles */
+#contact {
+  background-color: #28282B;
+  color: white;
+  padding: 50px 0;
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+#contact label {
+  font-size: 18px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+#contact textarea {
+  height: 150px;
+}
+
+#contact input[type="submit"] {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  color: ##28282B;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#contact input[type="submit"]:hover {
+  background-color: black;
+  color: #fff;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #28282B;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 16px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+footer a:hover {
+  color: #f2f2f2;
+}
